@@ -4,7 +4,7 @@ CurrentModule = MieScattering
 
 # MieScattering
 
-Documentation for [MieScattering](https://github.com/lucifer1004/MieScattering.jl).
+Documentation for [MieScattering](https://github.com/JuliaRemoteSensing/MieScattering.jl).
 
 ```@index
 ```
