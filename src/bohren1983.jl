@@ -83,7 +83,7 @@ function bhmie(T, x::Real, m::Number, Nθ::Integer=181; nextra::Integer=15, cust
             S₁[i] += fn * (aₙ * π_[i] + bₙ * τ[i])
             S₂[i] += fn * (aₙ * τ[i] + bₙ * π_[i])
             if i < ii
-                p = n & 1 == 0 ? 1 : -1
+                p = (n & 1) == 1 ? 1 : -1
                 S₁[ii] += fn * (aₙ * π_[i] - bₙ * τ[i]) * p
                 S₂[ii] += fn * (-aₙ * τ[i] + bₙ * π_[i]) * p
             end
