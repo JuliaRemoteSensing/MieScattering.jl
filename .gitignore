@@ -3,5 +3,8 @@
 *.jl.mem
 /docs/build/
 
+/.vscode
+/Manifest.toml
+
 # Temporarily ignore while working
 /fortran
